@@ -151,3 +151,4 @@ output_ids = generate(model, [tkn_2_id['soft'], tkn_2_id['kitty'], tkn_2_id['war
 print("Generated:", [id_2_tkn[i] for i in output_ids])
 
 
+
