@@ -150,3 +150,4 @@ def generate(model, start_tokens: list, max_len: int = 10):
 output_ids = generate(model, [tkn_2_id['soft'], tkn_2_id['kitty'], tkn_2_id['warm'], tkn_2_id['<EOS>']], max_len=10)
 print("Generated:", [id_2_tkn[i] for i in output_ids])
 
+
